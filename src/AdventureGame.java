@@ -33,7 +33,7 @@ public class AdventureGame {
         enemy.stats.put("Attack \uD83D\uDD25", 20);
         System.out.println(enemy.stats);
 
-        player.attack = promptUser("What would you like to do?\n", true);
+        player.attack = promptUser("What would you like to do?\n1. Attack\n2. Use a Potion\n", true);
     }
     private static String promptUser(String prompt, boolean ask) {
         Scanner sc = new Scanner(System.in);
