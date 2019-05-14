@@ -13,11 +13,15 @@ public class ConsoleExercises {
 
         System.out.println("Enter 3 words.");
         String word1 = sc.next();
+        System.out.println(word1);
         String word2 = sc.next();
+        System.out.println(word2);
         String word3 = sc.next();
+        System.out.println(word3);
 
         System.out.println("Enter a sentence.");
         String sentence1 = sc.next();
+        System.out.println(sentence1);
 
         System.out.println("Enter the length, and width of this classroom.");
         System.out.print("Length (ft): ");
