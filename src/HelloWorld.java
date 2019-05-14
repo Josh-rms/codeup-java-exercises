@@ -2,10 +2,10 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World");
 
-    int myFavoriteNumber = 7;
-    System.out.println(myFavoriteNumber);
+        int myFavoriteNumber = 7;
+        System.out.println(myFavoriteNumber);
 
-    String myString = "This is a string!";
+        String myString = "This is a string!";
         System.out.println(myString);
         myString = "This is the new string!";
         System.out.println(myString);
@@ -27,14 +27,14 @@ public class HelloWorld {
 //        System.out.println(++x);
 //        System.out.println(x);
 
-            //I think it should just print out the variable stored in the object, that being "three"
+        //I think it should just print out the variable stored in the object, that being "three"
 //        String theNumberThree = "three";
 //        Object o = theNumberThree;
 //        int three = (int) o;
 
-            //This code block is different from the one above because it's initializing the variable as a integer unlike the top which was a string
-            //Error 1. You calling a String an integer.
-            //Error 2. You're trying to cast an integer into a string into an integer.
+        //This code block is different from the one above because it's initializing the variable as a integer unlike the top which was a string
+        //Error 1. You calling a String an integer.
+        //Error 2. You're trying to cast an integer into a string into an integer.
 //        int three = (int) "three";
 
 //        int x = 4;
