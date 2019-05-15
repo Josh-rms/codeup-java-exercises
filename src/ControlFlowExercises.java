@@ -1,12 +1,18 @@
 import java.util.Scanner;
 public class ControlFlowExercises {
     public static void main(String[] args) {//
-////        for (int x = 100; x >= -10; x -= 5) {
-////            System.out.println(x);
-////        }
-////
-////        for (long y = 2; y < 10000000; y *= y) {
-////            System.out.println(y);
+//---------------------------------------//
+//
+////        for (int i = 1; i <= 100; i++) {
+////            if (i % 15 == 0) {
+////                System.out.println("FizzBuzz");
+////            } else if (i % 5 == 0) {
+////                System.out.println("Buzz");
+////            } else if (i % 3 == 0) {
+////                System.out.println("Fizz");
+////            } else {
+////                System.out.println(i);
+////            }
 ////        }
     }
 }
