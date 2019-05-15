@@ -1,20 +1,22 @@
 import java.util.Scanner;
 public class ControlFlowExercises {
-    public static void main(String[] args) {
-////        System.out.println("What number would you like to go up to?");
+    public static void main(String[] args) {//
+////        System.out.println("Enter the students grade!");
 ////        Scanner sc = new Scanner(System.in);
-////
-////        int userInput = sc.nextInt();
+////        int grade = sc.nextInt();
 ////        System.out.println("Continue?(y/n)");
-////        String input = sc.next();
-////        System.out.println("Here is your table!");
-////        System.out.println("number | squared | cubed");
-////        System.out.println("------ | ------- | -----");
-////        if (input.equalsIgnoreCase("yes")) {
-////            for (int i = 1; i <= userInput; i++) {
-////                int squared = i + i;
-////                int cubed = i * i * i;
-////                System.out.printf("%-7d|%-9d|%-6d%n", i, squared, cubed);
+////        String userInput = sc.next();
+////        if (userInput.equalsIgnoreCase("yes")) {
+////            if (grade >= 88) {
+////                System.out.println("A");
+////            } else if (grade >= 80 && grade <= 87) {
+////                System.out.println("B");
+////            } else if (grade >= 67 && grade <= 79) {
+////                System.out.println("C");
+////            } else if (grade >= 60 && grade <= 66) {
+////                System.out.println("D");
+////            } else {
+////                System.out.println("F");
 ////            }
 ////        }
     }
